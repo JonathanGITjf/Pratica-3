@@ -24,11 +24,11 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `dev`
+-- Estrutura da tabela `cadastro`
 --
 
-CREATE TABLE `dev` (
-  `id_dev` int(11) NOT NULL,
+CREATE TABLE `cadastro` (
+  `id_cadastro` int(11) NOT NULL,
   `PLACA` varchar(20) DEFAULT NULL,
   `MODELO` varchar(20) DEFAULT NULL,
   `HORARIO DE ENTRAD` varchar(50) DEFAULT NULL,
@@ -46,20 +46,20 @@ CREATE TABLE `dev` (
 --
 
 --
--- Índices para tabela `dev`
+-- Índices para tabela `cdastro`
 --
-ALTER TABLE `dev`
-  ADD PRIMARY KEY (`id_dev`);
+ALTER TABLE `cadstro`
+  ADD PRIMARY KEY (`id_cadastro`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
--- AUTO_INCREMENT de tabela `dev`
+-- AUTO_INCREMENT de tabela `dcadastro`
 --
-ALTER TABLE `dev`
-  MODIFY `id_dev` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `cadastro`
+  MODIFY `id_cadastro` int(11) NOT NULL AUTO_INCREMENT;
 
 
 COMMIT;
