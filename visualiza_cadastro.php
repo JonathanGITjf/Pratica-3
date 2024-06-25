@@ -14,10 +14,12 @@
 
         <table border="4">
             <tr>
+                
                 <td>PLACA</td>
                 <td>MODELO</td>
                 <td>HORARIO DE ENTRADA</td>
                 <td>HORARIO DE SAIDA</td>
+
             </tr>
             <?php
                 require("conecta.php");
