@@ -10,7 +10,7 @@
 
 <body>
     <center>
-        <h1>Cadastro de estacionmento</h1>
+        <h1>Cadastro de estacionamento</h1>
 
         <table border="4">
             <tr>
