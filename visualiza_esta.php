@@ -24,7 +24,7 @@
             <?php
                 require("conecta.php");
 
-                $dados_select = mysqli_query($conn, "SELECT PLACA, MODELO, HORARIO DE ENTRADA, HORARIO DE SAIDA FROM DEV");
+                $dados_select = mysqli_query($conn, "SELECT PLACA, MODELO, HORARIO DE ENTRADA, HORARIO DE SAIDA FROM esta");
 
                 while($dado = mysqli_fetch_array($dados_select)) {
                         echo '<tr>';
