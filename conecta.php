@@ -4,10 +4,10 @@
     $username = "root";
     $password = "";
 
+    
+    $conn = mysqli_connect ($servername, $username, $password, $database);
 
-    $conn = mysqli_connect($servername, $username, $password, $database);
-
-    if (!$conn) {
-        die("Conexão falhou. Erro: " . mysqli_connect_error());
+    if (!$conn -> connect_error) {
+        die("Conexão falhou. Erro: " . $conn->connect_error());
     }
-?>
+    ?>
